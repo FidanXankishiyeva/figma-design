@@ -118,7 +118,7 @@
   display: flex;
   align-items: center;
   margin-left: 130px;
-  margin-bottom: 32px;
+  mar
 }
 .right-box ul li h1 {
   color: #391400;
@@ -150,13 +150,12 @@
 }
 .video-box {
   display: flex;
-  align-items: center;
   margin-top: 127px;
 }
 .text {
   margin-left: 130px;
 }
-.video video {
+.video img {
   width: 570px;
   height: 368px;
   border-radius: 6px;

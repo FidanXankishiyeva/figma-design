@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    padding: 161px 0 140px 135px;
+    background-color: #FDF0E9;
+}
+
+.card-box ul {
+    display: flex;
+}
+.card-box li {
+    padding-top: 45px;
+    padding-left: 48px;
+    list-style-type: none;
+}
+.card-box ul li h1 {
+    margin-bottom: 13px;
+    color: var(--text-dark, #391400);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px;
+    list-style-type: none;
+}
+
+.card-box li:first-child {
+    width: 391px;
+    height: 176px;
+    border-radius: 6px 0px 0px 6px;
+    border: 1px solid #F3D1BF;
+}
+
+.card-box li:nth-child(2) {
+    width: 33.3%;
+    height: 176px;
+    border: 1px solid #F3D1BF;
+    background: #FDF0E9;
+}
+
+.card-box li:last-child {
+    width: 33.3%;
+    height: 176px;
+    border-radius: 0px 6px 6px 0px;
+    border: 1px solid #F3D1BF;
+}
+
+.card-box ul li p {
+    color: var(--text-dark, #391400);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.information-box{
+    display: flex;
+    margin-top: 140px;
+}
+.left-box h2{
+    margin-bottom: 17px;
+    color: var(--text-dark-accent, #EF6D58);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+letter-spacing: 3px;
+text-transform: uppercase;
+}
+.left-box h3{
+    width: 448px;
+    margin-bottom: 31px;
+    color: var(--text-dark, #391400);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: 48px; 
+}
+.left-box p{
+    width: 470px;
+    margin-bottom: 28px;
+    color: var(--text-dark-gray, rgba(57, 20, 0, 0.64));
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+}
+.left-box h4{
+    color: var(--text-dark, #391400);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+}
+
+.right-box ul li{
+    display: flex;
+}
+.right-box ul li h1{
+    margin-left: 130px;
+    color: #391400;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 72px;
+font-style: normal;
+font-weight: 800;
+line-height: 80px; 
+letter-spacing: -2px;
+}
+.right-box li:first-child{
+    margin-top: 40px;
+}
+.right-box ul li p{
+    margin-bottom: 80px;
+    margin-left: 60px;
+    color: var(--text-dark, #391400);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px;
+}
+.line{
+    width: 1170px;
+height: 1px;
+background-color: #F3D1BF;
+}
+.video-box{
+    display: flex;
+    margin-top: 127px;
+}
+.text{
+    margin-left: 130px;
+}
+.video img{
+    width: 570px;
+    height: 368px;
+    border-radius: 6px;
+}
+.text h1{
+    margin-bottom: 17px;
+    color: var(--text-dark-accent, #EF6D58);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.text h2{
+    width: 469px;
+    margin-bottom: 28px;
+    color: var(--text-dark, #391400);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px; 
+}
+.text p{
+    width: 470px;
+    color: var(--text-dark-gray, rgba(57, 20, 0, 0.64));
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
